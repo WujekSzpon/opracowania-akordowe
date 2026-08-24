@@ -1,0 +1,33 @@
+{
+  "id": "/opracowania-akordowe/",
+  "name": "Opracowania Akordowe",
+  "short_name": "Akordy",
+  "description": "Interaktywny konspekt Opracowania Akordowe od Wujka Szpona.",
+  "lang": "pl",
+  "start_url": "/opracowania-akordowe/",
+  "scope": "/opracowania-akordowe/",
+  "display": "standalone",
+  "background_color": "#0f0f0f",
+  "theme_color": "#ffcc00",
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://wujekszpon.github.io/opracowania-akordowe/manifest-akordy.webmanifest",
+      "id": "https://wujekszpon.github.io/opracowania-akordowe/"
+    }
+  ],
+  "icons": [
+    {
+      "src": "./pwa-akordy-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./pwa-akordy-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
